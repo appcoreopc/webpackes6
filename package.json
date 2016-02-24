@@ -1,0 +1,21 @@
+{
+  "name": "es6webpackdemo",
+  "version": "1.0.0",
+  "description": "webpack es6 demo",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+     "watch": "webpack --watch"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "jeremy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "webpack": "^1.12.14"
+  }
+}
